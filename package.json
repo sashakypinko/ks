@@ -28,6 +28,8 @@
     "vite": "^5.0.0"
   },
   "dependencies": {
+    "@types/lambda-rate-limiter": "^3.0.2",
+    "@types/nodemailer": "^7.0.3",
     "adm-zip": "^0.5.16",
     "aws-amplify": "^6.15.7",
     "cors": "^2.8.5",

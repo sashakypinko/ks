@@ -1,5 +1,6 @@
 import nodemailer from 'nodemailer';
 import rateLimit from 'lambda-rate-limiter';
+import { env } from '$amplify/env/email';
 import 'dotenv/config';
 
 const contactLimiter = rateLimit({
@@ -10,8 +11,8 @@ const contactLimiter = rateLimit({
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
+        user: env.SMTP_USERNAME,
+        pass: env.SMTP_PASS,
     },
 });
 
@@ -109,8 +110,8 @@ export const handler = async (event: any) => {
         const escapedMessage = escapeHtml(sanitizedMessage);
 
         const mailOptions = {
-            from: process.env.SMTP_USER,
-            to: process.env.MAIL_TO || process.env.SMTP_USER,
+            from: env.SMTP_USERNAME,
+            to: env.MAIL_TO || env.SMTP_USERNAME,
             replyTo: sanitizedEmail,
             subject: `New Contact Form Submission from ${escapedName}`,
             html: `
