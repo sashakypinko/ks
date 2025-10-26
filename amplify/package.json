@@ -1,7 +1,3 @@
 {
-  "type": "module",
-  "dependencies": {
-    "lambda-rate-limiter": "^4.0.2",
-    "nodemailer": "^7.0.10"
-  }
+  "type": "module"
 }

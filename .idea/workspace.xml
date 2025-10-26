@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cedf6f21-766a-4cbd-97f1-048f54549513" name="Changes" comment="wip" />
+    <list default="true" id="cedf6f21-766a-4cbd-97f1-048f54549513" name="Changes" comment="wip">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +71,7 @@
       <recent name="C:\Users\sasha\Projects\ks-gartenbau" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sasha\Projects\ks-gartenbau\amplify\functions" />
       <recent name="C:\Users\sasha\Projects\ks-gartenbau\public" />
     </key>
   </component>
@@ -83,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761488725584</updated>
-      <workItem from="1761488726512" duration="8934000" />
+      <workItem from="1761488726512" duration="9659000" />
     </task>
     <task id="LOCAL-00001" summary="wip">
       <option name="closed" value="true" />
@@ -117,11 +124,30 @@
       <option name="project" value="LOCAL" />
       <updated>1761508411721</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="wip">
+      <option name="closed" value="true" />
+      <created>1761509439053</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761509439053</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wip" />
